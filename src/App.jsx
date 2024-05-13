@@ -1,12 +1,12 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Sandbox from "./components/Sandbox";
+import Recipe from "./components/Recipe";
 
 function App() {
   return (
     <>
       <Header />
-      <Sandbox />
+      <Recipe name="simple omelette" />
       <Footer />
     </>
   );

@@ -5,11 +5,11 @@ export const recipes = [
     name: "Simple Omelette",
     desc: "An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.",
     image: omeletteImg,
-    prepTime: {
-      total: "Approximately 10 minutes",
-      preparation: "5 minutes",
-      cooking: "5 minutes",
-    },
+    prepTime: [
+      { title: "Total", time: "Approximately 10 minutes" },
+      { title: "Preparation", time: "5 minutes" },
+      { title: "Cooking", time: "5 minutes" },
+    ],
     ingredients: [
       "2-3 large eggs",
       "Salt, to taste",
@@ -43,11 +43,11 @@ export const recipes = [
         desc: "Serve hot, with additional salt and pepper if needed.",
       },
     ],
-    nutrition: {
-      calories: { value: 277, unit: "kcal" },
-      carbs: { value: 0, unit: "g" },
-      protein: { value: 20, unit: "g" },
-      fat: { value: 22, unit: "g" },
-    },
+    nutrition: [
+      { name: "Calories", amount: 277, unit: "kcal" },
+      { name: "Carbs", amount: 0, unit: "g" },
+      { name: "Protein", amount: 20, unit: "g" },
+      { name: "Fat", amount: 22, unit: "g" },
+    ],
   },
 ];

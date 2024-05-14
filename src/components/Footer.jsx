@@ -1,10 +1,19 @@
 const Footer = () => {
   return (
-    <footer className="hidden w-full bg-zinc-300 px-3">
-      <div className="container mx-auto px-3 py-6 text-right">
+    <footer className="hidden w-full items-end bg-rp-eggshell px-3 sm:block sm:flex sm:h-[124px]">
+      <div className="w-full pb-2 text-center text-sm">
+        Challenge by{" "}
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          className="text-rp-dark-raspberry"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
         <a
           href="https://github.com/shalri"
-          className=" justify-self-end text-sm font-bold text-zinc-700"
+          className="text-sm font-bold text-rp-dark-raspberry"
           target="_blank"
         >
           FScode &middot; Shalri
